@@ -7,12 +7,10 @@ import gensim
 import logging
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-train_dir  = os.path.dirname(os.path.realpath(__file__)) +\
-                        '/../database/medicine';
-train_path = "%s/%s" % (train_dir, 'questions_100w.txt')
-
-model_dir  = os.path.dirname(os.path.realpath(__file__)) +\
-                    '/../database/medicine';
+train_path = "%s/%s" % ('/Users/zhangyuguang/Documents/data/', '0404_faq.txt')
+# model_dir  = os.path.dirname(os.path.realpath(__file__)) +\
+#                         '/Users/zhangyuguang/Documents/model/';
+model_dir = '/Users/zhangyuguang/Documents/model/'
 
 docs = {}
 with open(train_path) as fh :
@@ -53,5 +51,6 @@ def test():
     for (i, sim) in sims :
         print "%d, %.04f, %s" % (i, sim, docs[i])
     print "USED TIME: %.03f" % (t1 - t0)
+
 
 test()

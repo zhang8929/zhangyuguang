@@ -11,7 +11,7 @@ import time
 print time.ctime()
 # train_dir  = os.path.dirname(os.path.realpath(__file__)) +\
 #                         '/Users/zhangyuguang/Documents/data/';
-train_path = "%s/%s" % ('/Users/zhangyuguang/Documents/data/', '0404_user.txt')
+train_path = "%s/%s" % ('/Users/zhangyuguang/Documents/data/', '0404_faq.txt')
 # model_dir  = os.path.dirname(os.path.realpath(__file__)) +\
 #                         '/Users/zhangyuguang/Documents/model/';
 model_dir = '/Users/zhangyuguang/Documents/model/'
@@ -58,7 +58,7 @@ def build_model (docs, vector_size, window, min_counts, epochs) :
 
     #model.train(docs, total_examples=model.corpus_count, epochs=30)
 
-    model_name = "0404_user_w_%sd_w%s_m%s_e%s.bin" % (vector_size, window,\
+    model_name = "0404_faq_w_%sd_w%s_m%s_e%s.bin" % (vector_size, window,\
                  min_counts, epochs)
     model_path = "%s/%s" % (model_dir, model_name)
     model.save(model_path)

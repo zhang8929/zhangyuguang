@@ -1,0 +1,6 @@
+*.pyc
+NLP/train/*
+NLP/models/*
+NLP/database/ignore/*
+NLP/database/medicine/*
+center_ai/logs/*
