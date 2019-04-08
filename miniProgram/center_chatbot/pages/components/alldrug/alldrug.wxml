@@ -1,0 +1,76 @@
+<!--pages/components/alldrug/alldrug.wxml-->
+<!-- <text>pages/components/alldrug/alldrug.wxml</text> -->
+<view class='nav'>
+  <view class='nav-con'>
+    <block wx:for='{{nav}}'>
+      <view class='nav-item {{index==show?"active":""}}' data-index='{{index}}' catchtap='tabBar'>{{item}}</view>
+    </block>
+  </view>
+</view>
+<view class='body'>
+
+  <view class='drug_list' bindtouchstart='scrollStart' bindtouchend='scrollEnd' style='{{scrollX}}'>
+
+    <view class='all drug_con'>
+      <scroll-view class='drug_scroll' scroll-y='true' style='height:{{domH}}px;'>
+        <block wx:for='{{pageData}}'>
+          <view class='drug_item' data-name='{{item.yao}}' catchtap='todrugList'>
+            <view class='drug_item-con'>
+              <view class='drug-info'>
+                <view class='drug-title'>{{item.yao}}<text>（{{item.count}}种）</text></view>
+                <view class='drug-desc'>{{item.desc}}</view>
+              </view>
+              <view class='drug-box'>
+                <view class='drug-tag'>{{item.cf?"处方药":"非处方药"}}</view>
+                <image src='../../assets/img/drug-btn.svg'></image>
+              </view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+
+    <view class='Rx_Drug drug_con'>
+      <scroll-view class='drug_scroll' scroll-y='true' style='height:{{domH}}px;'>
+        <block wx:for='{{pageData}}'>
+          <block wx:if='{{item.cf}}'>
+            <view class='drug_item' data-name='{{item.yao}}' catchtap='todrugList'>
+              <view class='drug_item-con'>
+                <view class='drug-info'>
+                  <view class='drug-title'>{{item.yao}}<text>（{{item.count}}种）</text></view>
+                  <view class='drug-desc'>{{item.desc}}</view>
+                </view>
+                <view class='drug-box'>
+                  <view class='drug-tag'>处方药</view>
+                  <image src='../../assets/img/drug-btn.svg'></image>
+                </view>
+              </view>
+            </view>
+          </block>
+        </block>
+      </scroll-view>
+    </view>
+
+    <view class='OTC drug_con'>
+      <scroll-view class='drug_scroll' scroll-y='true' style='height:{{domH}}px;'>
+        <block wx:for='{{pageData}}'>
+          <block wx:if='{{!item.cf}}'>
+            <view class='drug_item' data-name='{{item.yao}}' catchtap='todrugList'>
+              <view class='drug_item-con'>
+                <view class='drug-info'>
+                  <view class='drug-title'>{{item.yao}}<text>（{{item.count}}种）</text></view>
+                  <view class='drug-desc'>{{item.desc}}</view>
+                </view>
+                <view class='drug-box'>
+                  <view class='drug-tag'>非处方药</view>
+                  <image src='../../assets/img/drug-btn.svg'></image>
+                </view>
+              </view>
+            </view>
+          </block>
+        </block>
+      </scroll-view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/components/drug/drug.wxml-->
+<!-- <text>pages/components/drug/drug.wxml</text> -->
+<view class='drug'>
+  <view class='drug-title'>{{name}}（{{pageData.length}}种）</view>
+  <view class='drug-list'>
+    <block wx:for='{{pageData}}'>
+      <view class='drug-item' data-id='{{item.id}}' catchtap='toInfo'>
+        <view class='drug-img'>
+          <image src='{{item.img}}' mode='aspectFill'></image>
+        </view>
+        <view class='drug-info'>
+          <view class='drug-head'>
+            <view class='drug-item-title'>{{item.yao}}</view>
+            <view class='drug-tag'>{{item.cf?"处方药":"非处方药"}}</view>
+          </view>
+          <view class='drug-producers'>{{item.company}}</view>
+        </view>
+      </view>
+    </block>
+
+
+  </view>
+</view>
+<!-- 引入加载动画 -->
+<import src='../../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>
+

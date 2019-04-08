@@ -1,0 +1,2 @@
+#neo4j数据库备份
+0 03 * * * sh /home/python/Desktop/new/beifen/backup.sh

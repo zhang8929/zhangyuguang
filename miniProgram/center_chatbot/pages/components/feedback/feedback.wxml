@@ -1,0 +1,20 @@
+<!--pages/components/feedback/feedback.wxml-->
+<!-- <text>pages/components/feedback/feedback.wxml</text> -->
+<view class='logo'>
+  <image src='../../assets/img/about-logo.svg'></image>
+  <!-- <text>森特健康</text> -->
+</view>
+<view class='feedback-type'>
+    <text class='feedback-type-title'>反馈主题：</text>
+    <input placeholder='输入您想反馈的标题~' placeholder-class='feedback-type-input' maxlength='12'></input>
+</view>
+<view class='feedback-textarea'>
+  <textarea placeholder='请补充详细问题和意见，小森会认真看完的哦~' placeholder-class='sned-textarea' maxlength='200'></textarea>
+</view>
+<view class='tallNum'>
+    <text class='tallNum-title'>联系方式：</text>
+    <input placeholder='请输入手机号码' placeholder-class='tallNum-input' maxlength='11'></input>
+</view>
+<view class='submit-feedback'>
+  <text>提交</text>
+</view>

@@ -1,0 +1,72 @@
+
+<!-- 问诊记录 -->
+<view class='head'>
+  <view class='navBar'>
+    <block wx:for='{{navBer}}'>
+      <view class='nav-item {{navBerActive==index?"active":""}}' catchtap='nav_item' data-index='{{index}}'>{{item}}</view>
+    </block>  
+    <view class='nav-item'>
+      <picker mode ='multiSelector' range='{{multiArray}}' bindcolumnchange='time_list_change' bindchange='time_list_ajax'>更多查询</picker>
+    </view>
+  </view>
+  <view class='askBox'>
+    <view class='askNum'>本月共问诊{{navBerActive==1?pageData._thisMonth.length:pageData.prevMonth.length}}次</view>
+  </view>
+</view>
+<view class='askList'>
+  <!-- <view class='ask-title'>本月问诊记录详情</view> -->
+  <!-- 当月的问诊记录 -->
+  <view class='_thisMouth' hidden='{{navBerActive==0}}'>
+    <block wx:if='{{pageData._thisMonth.length>=1}}'>
+    <view class='ask-title'>本月问诊记录详情</view>
+      <block wx:for='{{pageData._thisMonth}}'>
+          <view class='ask-item' data-id='{{item.replay.talkid}}' data-val='{{item.replay.msg}}' data-index='0' catchtap='report'>
+            <view class='ask-item-title'>
+              <text>{{item.day}}</text>
+              <image src='../../assets/img/la-jt-icon.svg'></image> 
+            </view>
+            <view class='ask-item-con'>{{item.symptom}}</view>
+          </view>
+      </block> 
+    </block>
+    <block wx:else>
+      <view class='default-page'>
+        <image src='../../assets/img/Questionnaire-icon.svg' mode='widthFix'></image>
+        <view class='default-show-info'>
+          <text class='default-h2'>暂无问诊</text>
+          <text class='default-p'>还没有问诊过呢~</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  <!-- 上月问诊记录 -->
+  <view class='prevMouth' hidden='{{navBerActive==1}}'>
+    <block wx:if='{{pageData.prevMonth.length>=1}}'>
+    <view class='ask-title'>本月问诊记录详情</view>
+      <block wx:for='{{pageData.prevMonth}}'>
+        <view class='ask-item' data-id='{{item.replay.talkid}}' data-val='{{item.replay.msg}}' data-index='0' catchtap='report'>
+          <view class='ask-item-title'>
+            <text>{{item.day}}</text>
+            <image src='../../assets/img/la-jt-icon.svg'></image> 
+          </view>
+          <view class='ask-item-con'>{{item.symptom}}</view>
+        </view>
+      </block>  
+    </block>
+    <block wx:else>
+      <view class='default-page'>
+        <image src='../../assets/img/Questionnaire-icon.svg' mode='widthFix'></image>
+        <view class='default-show-info'>
+          <text class='default-h2'>暂无问诊</text>
+          <text class='default-p'>还没有问诊过呢~</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  
+</view>
+<!-- 引入加载动画 -->
+<import src='../../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>

@@ -1,0 +1,41 @@
+/* pages/myInfo/myInfo.wxss */
+page{
+  height: 100%;
+}
+.userInfo{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+}
+.user-item{
+  margin-bottom: 16rpx;
+  
+}
+.user-item-title{
+  font-size: 28rpx;
+  color: #252525;
+  letter-spacing: 1.16rpx;
+  padding-left: 10rpx;
+}
+.user-item-con{
+  font-size: 32rpx;
+  color: #3F3F3F;
+  letter-spacing: 1.34rpx;
+  padding: 10rpx 0 10rpx 10rpx;
+  border-bottom: 1rpx solid #EAECEF;
+}
+.user-btn{
+  padding: 14rpx 0 126rpx;
+  text-align: right;
+}
+.user-btn text{
+  background-color: #128DE9;
+  border-radius: 40rpx;
+  padding: 10rpx 41rpx;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  letter-spacing: 1.34rpx;
+}

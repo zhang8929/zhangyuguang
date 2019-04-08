@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>形状</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="问诊记录列表" transform="translate(-310.000000, -335.000000)" fill="#128DE9" fill-rule="nonzero">
+            <g id="分组" transform="translate(17.000000, 315.000000)">
+                <g id="展开" transform="translate(298.000000, 25.000000) rotate(-90.000000) translate(-298.000000, -25.000000) translate(290.000000, 17.000000)">
+                    <path d="M8,3 C5.2390625,3 3,5.2390625 3,8 C3,10.7609375 5.2390625,13 8,13 C10.7609375,13 13,10.7609375 13,8 C13,5.2390625 10.7609375,3 8,3 Z M10.828125,7.378125 L8.353125,9.853125 C8.1578125,10.0484375 7.840625,10.0484375 7.6453125,9.853125 L5.171875,7.378125 C4.9765625,7.1828125 4.9765625,6.865625 5.171875,6.6703125 C5.3671875,6.475 5.684375,6.475 5.8796875,6.6703125 L8,8.7921875 L10.121875,6.671875 C10.3171875,6.4765625 10.634375,6.4765625 10.8296875,6.671875 C11.0234375,6.8671875 11.0234375,7.1828125 10.828125,7.378125 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

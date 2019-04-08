@@ -1,0 +1,21 @@
+<!--pages/components/about/about.wxml-->
+<!-- <text>pages/components/about/about.wxml</text> -->
+<view class='content' style='padding-bottom:{{PhoneX}}px'>
+  <view class='content-t'>
+    <view class='about-con'>
+      <view class='logo'>
+        <image src='../../assets/img/logo.svg'></image>
+      </view>
+      <view class='version'>版本：<text>1.0.0</text></view>
+      <view class='aubout-text'>寻医问典是北京森特时代科技旗下核心产品。森特时代基于深度学习语义理解和语音处理算法，致力于研发业界领先的对话式交互 AI解决方案。</view>
+    </view>
+    <view class='footbar'>
+      <navigator class='footbar-btn' url='../feedback/feedback' hover-class='feed-jump'>意见反馈</navigator>
+      <view class='contact'>联系我们：gengyajin@centerai.cn</view>
+    </view>
+  </view>
+  <view class='copyright'>
+    <text>北京森特时代科技有限公司 版权所有</text>
+    <text>Copyright ©️ 2018-2019 Centerai.All Rights Reserved</text>
+  </view>
+</view>

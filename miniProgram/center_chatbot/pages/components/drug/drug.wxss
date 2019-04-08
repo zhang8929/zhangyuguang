@@ -1,0 +1,80 @@
+/* pages/components/drug/drug.wxss */
+@import '../../loading/loading.wxss';
+page{
+  background-color: #EDF7FC;
+}
+.drug-title{
+  padding:20rpx 0 20rpx 40rpx;
+  font-size: 20px;
+  color: #4A4A4A;
+}
+.drug-list{
+  padding: 0 20rpx;
+}
+.drug-item{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-bottom: 32rpx;
+  box-shadow: 0 4rpx 8rpx 0 #E9F7FF;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.drug-img{
+  width: 240rpx;
+  height: 200rpx;
+}
+.drug-img image{
+  width: 240rpx;
+  height: 200rpx;
+  display: block;
+}
+.drug-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16rpx 8rpx 20rpx 16rpx;
+  /* width: 472rpx; */
+  flex: 1;
+}
+.drug-head{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between
+}
+.drug-item-title{
+  font-size: 28rpx;
+  color: #4A4A4A;
+  width: 305rpx;
+  min-width: 305rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.drug-tag{
+  background-color: #597EF7;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  color: #FDFFFC;
+  padding: 10rpx 20rpx;
+}
+.drug-producers{
+  font-size:28rpx;
+  color: #C1C1C1;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 440rpx;
+}
+
+/* 加载动画 */
+.loadingBox{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 999
+}

@@ -1,0 +1,1097 @@
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/app.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/app.py', reloading
+INFO _internal.py:97  * Restarting with stat
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:40] "GET /unit/words=怀孕%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:40] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:40] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:40] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:40] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:40] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:16:41] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:38] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:39] "GET /unit/words=怀孕%20怎么办?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:55] "GET /unit/words=怀孕%20怎么办 HTTP/1.1" 404 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:55] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:56] "GET /unit/words=怀孕%20怎么办 HTTP/1.1" 404 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:24:56] "GET /favicon.ico HTTP/1.1" 500 -
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:25:08] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:25:08] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:25:23] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:25:23] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 500 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 266, in write
+    self.send_header("Connection", "close")
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 20:28:07] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:16] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:16] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:35] "GET /unit?words=月经推迟%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:35] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:42] "GET /unit?words=月经%20推迟%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:52] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:07:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:08:00] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:08:00] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:08:17] "GET /unit?words=精子活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:08:17] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:08:52] "GET /unit?words=怀孕%20两年%20没怀上%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:08:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:09:15] "GET /unit?words=怀不上%20孩子%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:09:15] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:09:38] "GET /unit?words=备孕%20做%20哪些%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:09:38] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:09:45] "GET /unit?words=备孕%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [30/Mar/2019 23:09:45] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 00:01:24] "GET /unit?words=怀孕了%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 00:01:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:35:27] "GET /unit?words=怀孕了%20不想要%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:35:27] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:35:42] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:35:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:36:00] "GET /unit?words=精子活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:36:01] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:41:48] "GET /unit?words=精子活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:41:48] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:04] "GET /unit?words=男人%20不行%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:18] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:18] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:25] "GET /unit?words=早泄 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:25] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:34] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:42:34] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:43:24] "GET /unit?words=早泄%20原因 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:43:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:43:43] "GET /unit?words=早泄%20原因%20有%20哪些 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:43:43] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:45:16] "GET /unit?words=月经不调%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:45:16] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:45:40] "GET /unit?words=同房%20阴道%20疼 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:45:40] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:45:55] "GET /unit?words=子宫肌瘤%20会%20影响%20怀孕%20妈 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:45:55] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:46:35] "GET /unit?words=怀孕%20可以%20同房%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:46:35] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:47:38] "GET /unit?words=不会 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:47:38] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:47:46] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:47:46] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:48:09] "GET /unit?words=子宫肌瘤%20可以%20怀孕 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:48:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:49:13] "GET /unit?words=子宫肌瘤%20怀孕 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:49:13] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:49:22] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:49:22] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:49:29] "GET /unit?words=感冒 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:49:29] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:52:14] "GET /unit?words=感冒 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:52:14] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:52:53] "GET /unit?words=子宫肌瘤%20怀孕 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:52:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:57:29] "GET /unit?words=子宫肌瘤%20怀孕 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:57:29] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:57:47] "GET /unit?words=男性不孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:57:47] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:58:05] "GET /unit?words=经理活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:58:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:58:24] "GET /unit?words=精子活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 21:58:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 22:28:36] "GET /unit?words=精子活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 22:28:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:34:24] "GET /unit?words=精子活力低%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:34:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:34:35] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:34:35] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:34:42] "GET /unit?words=不孕不育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:34:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:01] "GET /unit?words=月经不调 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:02] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:13] "GET /unit?words=月经不调%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:13] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:36] "GET /unit?words=霉菌性阴道炎 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:45] "GET /unit?words=霉菌性阴道炎%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:35:45] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:36:05] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:36:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:41:17] "GET /unit?words=子宫肌瘤%20能%20怀孕%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:41:17] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:41:38] "GET /unit?words=子宫肌瘤%20需要%20手术%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:41:38] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:42:26] "GET /unit?words=夫妻生活%20不%20和谐 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:42:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:43:11] "GET /unit?words=怀孕%20能%20同房%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:43:11] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:45:15] "GET /unit?words=试管婴儿%20多少%20钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:45:15] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:45:25] "GET /unit?words=试管婴儿%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [31/Mar/2019 23:45:25] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:07:22] "GET /unit?words=试管婴儿%20危险%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:07:22] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:08:04] "GET /unit?words=男性不孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:08:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:09:00] "GET /unit?words=子宫肌瘤%20怎么治 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:09:00] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:13:53] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:13:53] "GET /favicon.ico HTTP/1.1" 500 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:13:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:14:02] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:14:02] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:14:23] "GET /unit?words=备孕%20做哪些%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:14:23] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:14:42] "GET /unit?words=备孕%20吃什么%20好 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:14:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:16:05] "GET /unit?words=备孕%20吃什么%20好 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:16:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:16:46] "GET /unit?words=怀孕%20要%20注意%20失眠 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:16:46] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:16:57] "GET /unit?words=怀孕%20要%20注意%20什么 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:16:57] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:20:06] "GET /unit?words=多囊卵巢综合征%20会%20遗传%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:20:06] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:20:33] "GET /unit?words=多囊卵巢综合征%20会遗传%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:20:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:20:57] "GET /unit?words=卵巢早衰%20可以%20治疗%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:20:57] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:21:49] "GET /unit?words=卵巢早衰%20患者%20可以%20促%20排卵%20治疗%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:21:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:23:05] "GET /unit?words=如果%20没有%20正常排卵%20会%20有什么样%20的%20表现 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:23:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:23:58] "GET /unit?words=如果%20没有%20正常%20排卵%20会%20有%20什么样%20的%20表现 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [01/Apr/2019 10:23:58] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:30:38] "GET /unit?words=如果%20没有%20正常%20排卵%20会%20有%20什么样%20的%20表现 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:30:38] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:30:58] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:30:58] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:17] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:17] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:31:19] "GET /unit?words= HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:31:22] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.226 - - [01/Apr/2019 10:31:23] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:31:30] "GET /unit?words=不孕不育%20检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:31:30] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:37] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:37] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:40] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:41] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:44] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:44] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:47] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:47] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:50] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:50] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:53] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:31:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:32:05] "GET /unit?words=早泄%20应该%20怎么治 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:32:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:32:39] "GET /unit?words=早泄%20应该%20怎么治%20才好 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:32:39] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:32:56] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.20 - - [01/Apr/2019 10:32:56] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:38:39] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:38:39] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:40:30] "GET /unit?words=不孕不育%20检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:40:52] "GET /unit?words=不孕不育检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:40:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:41:32] "GET /unit?words=不孕不育%20检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:41:43] "GET /unit?words=不孕不育%20检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:41:43] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:41:56] "GET /unit?words=不孕不育%20检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:41:56] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:42:04] "GET /unit?words=不孕不育%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:42:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:42:21] "GET /unit?words=不孕不育%20检查%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:42:21] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:42:32] "GET /unit?words=不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:42:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:43:00] "GET /unit?words=治疗%20早泄%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:43:13] "GET /unit?words=http://192.168.22.152:8889/unit?words=治疗%20早泄%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:43:13] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:45:40] "GET /unit?words=治疗%20不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 10:45:41] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:46:20] "GET /unit?words=http://192.168.22.152:8889/unit?words=心脏病%20治疗%20需要%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:46:20] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 10:50:42] "GET /unit?words=治疗%20早泄%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:52:36] "GET /unit?words=治疗%20不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:52:37] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:53:26] "GET /unit?words=月经%20总是%20推迟%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:53:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:53:44] "GET /unit?words=不孕不育%20要%20做%20哪些%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:53:44] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:54:20] "GET /unit?words=不孕%20不育%20要%20做%20哪些%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:54:20] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:55:04] "GET /unit?words=精子%20活力%20低%20能%20治%20吗 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:55:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:55:26] "GET /unit?words=试管婴儿%20需要%20花%20多少%20钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [01/Apr/2019 10:55:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:07:16] "GET /unit?words=治疗%20早泄%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:07:52] "GET /unit?words=治疗%20早泄%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:08:08] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:08:29] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:08:41] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:09:05] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:10:37] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:11:30] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:11:44] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:12:05] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:12:50] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:12:59] "GET /unit?words=治疗%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:13:36] "GET /unit?words=治疗%20失眠%20不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:14:53] "GET /unit?words=治疗%20失眠%20不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:15:04] "GET /unit?words=治疗%20失眠%20不孕不育%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:15:29] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:15:49] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:16:42] "GET /unit?words=治疗%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:16:54] "GET /unit?words=治疗%20感冒%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:17:25] "GET /unit?words=治疗%20感冒%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:17:43] "GET /unit?words=治疗%20感冒%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:18:30] "GET /unit?words=治疗%20感冒%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:18:49] "GET /unit?words=治疗%20感冒%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:19:02] "GET /unit?words=治疗%20失眠%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:19:14] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:19:56] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:20:24] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:21:04] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:27:14] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:27:30] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:31:04] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:31:10] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:31:17] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:31:45] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:32:32] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:32:43] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:33:03] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:33:39] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:33:42] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:35:38] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:38:04] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 11:38:28] "GET /unit?words=治疗%20失眠%20感冒%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:47:25] "GET /unit?words=治疗%20宫颈癌%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:47:25] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:49:16] "GET /unit?words=治疗%20宫颈炎%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:49:16] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:51:10] "GET /unit?words=治疗%20宫颈炎%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:51:10] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:51:30] "GET /unit?words=宫颈癌%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 11:51:30] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 14:28:57] "GET /content?words=宫颈癌%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 14:28:57] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 14:29:08] "GET /content?words=你好 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 14:29:08] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:19] "GET /unit HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:19] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:19] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:22] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:22] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:22] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:22] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:47] "GET /unit?吃饭 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:47] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:47] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:47] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:47] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:53:47] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:54:17] "GET /unit?words=吃饭 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 14:54:17] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.42 - - [01/Apr/2019 15:25:00] "GET /unit?words= HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.42 - - [01/Apr/2019 15:25:38] "GET /unit?words= HTTP/1.1" 200 -
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 16:40:40] "GET /unit?words=你好 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.210 - - [01/Apr/2019 16:41:39] "GET /unit?words=你好 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 16:43:28] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 16:43:28] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 16:47:15] "GET /unit?words=备孕%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 16:47:15] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 16:47:23] "GET /unit?words=备孕%20检查%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 16:47:23] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:58:04] "GET /unit?words=http://192.168.22.152:8889/unit?words=早泄做哪些检查 HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:59:19] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:59:34] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:59:39] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:59:39] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:59:59] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 16:59:59] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:05] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:07] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:07] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:09] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:15] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:00:50] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:01:32] "GET /unit?words=早泄%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:25] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:43] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:43] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:55] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:55] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:58] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:15:58] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:00] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:00] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:05] "GET /unit?words=不怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:08] "GET /unit?words=不怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:08] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:14] "GET /unit?words=不怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:16:14] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:17:30] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:17:35] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:17:40] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:17:44] "GET /unit?words=不%20怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:17:48] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:18:07] "GET /unit?words=保胎%20应该%20怎么%20做 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 17:19:47] "GET /unit?words=雷浩%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 17:54:06] "GET /unit?words=备孕%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 17:54:06] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 17:55:27] "GET /unit?words=备孕%20做%20哪些%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [01/Apr/2019 17:55:27] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 18:19:52] "GET /unit?words=http://192.168.22.152:8889/unit?words=早泄%20做%20哪些%20检查 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.221 - - [01/Apr/2019 18:19:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:58:59] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:08] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:08] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:08] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:08] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:08] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:08] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:09] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:09] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:09] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:09] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:09] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:09] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:11] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:11] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:11] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:11] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:11] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:11] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:14] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:14] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:14] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:14] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:14] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 10:59:14] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:36] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:36] "GET /unit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:36] "GET /unit?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:36] "GET /unit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:36] "GET /unit?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:36] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:00:37] "GET /unit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:10] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:10] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:21] "GET /unit?words=雷浩%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:21] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:52] "GET /unit?words=丢雷老母 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:59] "GET /unit?words=丢%20雷%20老母 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:09:59] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:16:08] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:16:08] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:16:22] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:16:22] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:17:19] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:17:19] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:17:58] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:17:58] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:25:16] "GET /unit?words=子宫肥大%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:25:16] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.152 - - [02/Apr/2019 11:35:07] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 192.168.22.188 - - [02/Apr/2019 11:37:53] "GET /unit?words=试管婴儿%20需要%20花%20多少%20钱 HTTP/1.1" 200 -
+INFO _internal.py:97 192.168.22.188 - - [02/Apr/2019 11:37:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:29] "GET /content?words=你好 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:29] "GET /content?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:29] "GET /content?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:29] "GET /content?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:30] "GET /content?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:30] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:27:31] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:01] "GET /content?words=你好 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:01] "GET /content?words=你好 HTTP/1.1" 500 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:01] "GET /content?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:01] "GET /content?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:01] "GET /content?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:01] "GET /content?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:02] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:29:02] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:31] "GET /content?words=你好 HTTP/1.1" 500 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:31] "GET /content?words=你好 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:32] "GET /content?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:32] "GET /content?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:32] "GET /content?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:32] "GET /content?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:32] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:30:32] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:01] "GET /content?words=你好 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:01] "GET /content?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:01] "GET /content?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:01] "GET /content?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:01] "GET /content?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:02] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:33:02] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:03] "GET /content?words=你好 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:03] "GET /content?words=你好 HTTP/1.1" 200 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:37] "GET /content?words=你好&hid=1 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:37] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:59] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:59] "GET /content?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:59] "GET /content?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:59] "GET /content?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:59] "GET /content?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:34:59] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:35:00] "GET /content?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:12] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:12] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:33] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:36] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:38] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:36:38] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:38:23] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:38:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:07] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:07] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:08] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:08] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:09] "GET /content?words=你好&hid=1&keshi=男科 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:10] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:21] "GET /content?words=你好&hid=1 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:39:21] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:53:53] "GET /content?words=人流 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:53:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:54:29] "GET /content?words=人流手术需要多长时间，术前术后应该注意点什么？ HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:54:29] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:54:33] "GET /content?words=人流手术需要多长时间，术前术后应该注意点什么？ HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:54:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:55:18] "GET /content?words=人流手术需要多长时间，术前术后应该注意点什么？keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:55:18] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:55:29] "GET /content?words=人流手术需要多长时间，术前术后应该注意点什么？&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:55:29] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:55:42] "GET /content?words=人流手术需要多长时间术前术后应该注意点什么&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:55:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:56:42] "GET /content?words=人流手术需要多长时间术前术后应该注意点什么&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:56:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:56:53] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:56:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:57:40] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:57:40] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:28] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:28] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 256, in write
+    self.send_header(key, value)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:28] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:46] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:46] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:47] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:47] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:48] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 17:59:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:05:23] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:05:23] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:05:26] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:05:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:05:58] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:05:58] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:06:00] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:06:00] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:05] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:05] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 270, in write
+    self.send_header("Date", self.date_time_string())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:05] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:13] "GET /content?words=人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:13] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:20] "GET /content?words=怀孕&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:07:20] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:13:52] "GET /content?words=怀孕多久可以做人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:13:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:27] "GET /content?words=怀孕多久可以做人流&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:27] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:29] "GET /content?words=医生在吗&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:29] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:34] "GET /content?words=医生在吗&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:34] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:36] "GET /content?words=医生在吗&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:22:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:48:30] "GET /content?words=医生在吗&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:48:30] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:49:37] "GET /content?words=医生在吗&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:49:37] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:50:04] "GET /content?words=检查要什么项目&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:50:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:50:39] "GET /content?words=手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:50:39] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:50:47] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:50:47] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:27] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:27] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:33] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:33] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:34] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:51:34] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:52:27] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:52:27] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:53:18] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:53:18] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:53:57] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:53:57] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:54:59] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:54:59] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:49] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:49] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:52] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:52] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:53] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:53] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:53] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:54] "GET /content?words=人流手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:54] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:59] "GET /content?words=手术需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:55:59] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:56:06] "GET /content?words=需要多长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:56:06] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:56:10] "GET /content?words=长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:56:10] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/s_content.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:57:24] "GET /content?words=长时间&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [03/Apr/2019 18:57:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context?words=&keshi=计划生育 HTTP/1.1" 308 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context/?words=&keshi=计划生育 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:31] "GET /context/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:50:33] "GET /context/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:51:23] "GET /context/?words=1111&keshi=计划生育 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:51:23] "GET /context/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:51:23] "GET /context/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:51:23] "GET /context/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:51:23] "GET /context/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:51:23] "GET /context/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:52:02] "GET /context/?words=可以吗&keshi=计划生育 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:52:03] "GET /context/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:52:03] "GET /context/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:52:03] "GET /context/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:52:03] "GET /context/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:52:03] "GET /context/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:54:15] "GET /context/?words=可以吗&keshi=计划生育 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:54:15] "GET /context/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:54:15] "GET /context/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:54:15] "GET /context/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:54:15] "GET /context/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:54:15] "GET /context/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:55:04] "GET /context/?words=可以吗&keshi=计划生育 HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:55:04] "GET /context/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:55:04] "GET /context/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:55:04] "GET /context/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:55:04] "GET /context/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:55:04] "GET /context/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/context_similar.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:56:09] "GET /context/?words=可以吗&keshi=计划生育 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:56:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:57:34] "GET /context/?words=可以吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:57:34] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:57:57] "GET /context/?words=检查要什么项目 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 10:57:57] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 11:03:14] "GET /context/?words=可以吗 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 11:03:14] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 11:03:32] "GET /context/?words=可以 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 11:03:32] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/app.py', reloading
+INFO _internal.py:97  * Restarting with stat
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:13:57] "GET /unit_user?words=可以 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:13:57] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:14:18] "GET /unit_user?words=人流多少钱呀 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:14:18] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:21:53] "GET /unit_user?words=人流多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:21:53] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:22:08] "GET /unit_user?words=人流%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:22:08] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:23:19] "GET /unit_user?words=人流 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:23:19] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit_user.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:24:03] "GET /unit_user?words=人流 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:24:03] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:24:58] "GET /unit_user?words=人流%20得%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:24:58] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:25:32] "GET /unit_user?words=人流%20得%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:25:32] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:33:21] "GET /unit_user?words=人流%20得%20多少钱 HTTP/1.1" 200 -
+ERROR _internal.py:97 Error on request:
+Traceback (most recent call last):
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 302, in run_wsgi
+    execute(self.server.app)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in execute
+    write(data)
+  File "/Users/zhangyuguang/.virtualenvs/py2/lib/python2.7/site-packages/werkzeug/serving.py", line 268, in write
+    self.send_header("Server", self.version_string())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 401, in send_header
+    self.wfile.write("%s: %s\r\n" % (keyword, value))
+IOError: [Errno 32] Broken pipe
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:33:21] "GET /unit?words=人流%20得%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:33:21] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:35:17] "GET /unit?words=人流%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:35:17] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:35:29] "GET /unit?words=人流%20怎么做 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:35:29] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:35:42] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:35:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:36:36] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 15:36:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:24:33] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:24:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:24:46] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:24:46] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:12] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:12] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:17] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:17] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:26] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:28] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:28] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:31] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:31] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:33] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:36] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:38] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:38] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:41] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:41] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:43] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:25:43] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:04] "GET /unit?words=不孕不育%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:26] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:28] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:28] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:31] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:31] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:33] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:34] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:34] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:36] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:36] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:37] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:37] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:39] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:39] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:41] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:27:41] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:22] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:22] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:24] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:24] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:26] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:26] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:28] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:28] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:30] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 16:34:30] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+INFO _internal.py:97  * Running on http://0.0.0.0:8889/ (Press CTRL+C to quit)
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:03:14] "GET /unit?words=怀孕%20怎么办 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:03:14] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:04:09] "GET /unit?words=得%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:04:09] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit_user.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:06:26] "GET /unit?words=得%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:06:27] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO _internal.py:97  * Detected change in '/Users/zhangyuguang/PycharmProjects/python/center_ai/view_unit.py', reloading
+INFO _internal.py:97  * Restarting with stat
+WARNING _internal.py:97  * Debugger is active!
+INFO _internal.py:97  * Debugger PIN: 835-408-071
+INFO keyedvectors.py:1624 precomputing L2-norms of doc weight vectors
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:04] "GET /unit?words=得%20多少钱 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:04] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:33] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:33] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:37] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:37] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:40] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:40] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:42] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:42] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:43] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:44] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:45] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:45] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:46] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:46] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:47] "GET /unit?words=得%20多少钱%20啊 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:08:47] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:09:21] "GET /unit?words=怀孕%20几天%20可以%20做人流 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:09:22] "GET /favicon.ico HTTP/1.1" 500 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:09:28] "GET /unit?words=怀孕%20几天%20可以%20做人流 HTTP/1.1" 200 -
+INFO _internal.py:97 127.0.0.1 - - [04/Apr/2019 18:09:28] "GET /favicon.ico HTTP/1.1" 500 -

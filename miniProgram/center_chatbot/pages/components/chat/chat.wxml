@@ -1,0 +1,296 @@
+<!--pages/components/chat/chat.wxml-->
+<!-- 聊天页面 -->
+<!-- <text>pages/components/chat/chat.wxml</text> -->
+<view class='chatBox'>
+  <view class='robot_headImg' id='robot_headImg'>
+    <view class='headImg-con'>
+      <image src='../../assets/img/robot-icon.svg'></image>
+      <!-- <text>森特健康助手</text> -->
+    </view>
+  </view>
+  <view class='chat-con'>
+    <scroll-view scroll-y='true' scroll-with-animation='true' style='height:{{scrollH}}px;' scroll-top='{{rollH}}px' id='SView'>
+      <view class='scroll-body' id='scroll'>
+        <block wx:for='{{chat}}'>
+          <!-- 文字消息 -->
+          <block wx:if='{{item.msgType=="text"}}'>
+            <view class='{{item.class}}'>{{item.val}}</view>
+          </block>
+          <!-- 语音消息 -->
+          <block wx:elif='{{item.msgType=="record"}}'>
+            <view class='{{item.class}} record_msg' data-voiceUrl='{{item.val.url}}' data-time='{{item.val.time}}' data-play='{{item.play}}' data-index='{{index}}' catchtap='play_voice'><text>{{item.val.time}}″</text><image src='../../assets/img/record_play{{item.play?".gif":".svg"}}'></image></view>
+            <view class='{{item.class}} chat-right-bg-w' data-url='{{item.val.url}}' data-time='{{item.val.time}}'>{{item.val.text}}</view>
+          </block>
+          <!-- 病症卡 -->
+          <block wx:elif='{{item.msgType=="card"}}'>
+            <view class='medical_cord'>
+              <scroll-view scroll-x='true'>
+                <view class='medical_con'>
+                  <view class='medical_item' wx:for="{{item.val}}" wx:for-item='key'>
+                  <view class='medical_item-con' catchtap='report' data-val='{{item.val}}' data-id='{{item.talkid}}' data-index='{{index}}'>
+                    <view class='medical_item-title'>
+                    <text>{{key.name}}</text>
+                    <image src='../../assets/img/jb-tz-icon.svg'></image>
+                    </view>
+                    <view class='card_list' wx:if='{{key.in!=""&&key.in!=null&&key.in!=undefined}}'>
+                      <view class='list-title'>诊断依据：</view>
+                      <view class='list-con'>{{key.in}}</view>
+                    </view>
+                    <view class='card_list' wx:if='{{key.not_in!=""&&key.not_in!=null&&key.not_in!=undefined}}'>
+                      <view class='list-title'>进一步确诊需要：</view>
+                      <view class='list-con'>{{key.not_in}}</view>
+                    </view>
+                  </view>
+                  <view class='item_btn'>
+                    <navigator url='../illness/illness?id=1&name={{key.name}}'>症状</navigator>
+                    <navigator url='../illness/illness?id=2&name={{key.name}}'>治疗</navigator>
+                  </view>
+                  </view>
+                </view>
+              </scroll-view>
+            </view>
+          </block>
+          <!-- 病症反馈 -->
+          <block wx:elif='{{item.msgType=="feedback"}}'>
+            <view class='msg-feedback'>
+              <view class='msg-feedback-con'>
+                <view class='feedback-title'>{{item.val}}</view>
+                <view class='feedback-btn'>
+                    <image src='../../assets/img/h-dz-{{!item.like?"icon":"icon-active"}}.svg' class='like' catchtap='feedback_btn' data-evaluate='1' data-talkid='{{item.talkid}}' data-index='{{index}}' data-tap='{{item.tap}}'></image>
+                    <image src='../../assets/img/la-bmy-c-{{!item.not?"icon":"icon-active"}}.svg' class='not' catchtap='feedback_btn' data-evaluate='3' data-talkid='{{item.talkid}}' data-index='{{index}}' data-tap='{{item.tap}}'></image>
+                </view>
+              </view>
+            </view>
+          </block>
+          <!-- 药品推荐 -->
+          <block wx:elif='{{item.msgType=="drugs"}}'>
+          <view class='drugs_card'>
+            <scroll-view scroll-x='true'>
+              <view class='drugs_card-list'>
+
+                <view class='drugs_card-item' wx:for='{{item.val}}'>
+                  <view class='drugs_item-con' data-name='{{item.yao}}' catchtap='todrugList'>
+                    <view class='drugs_card-head'>
+                      <view class='drugs_card-title'>{{item.yao}}<text class='drugs_num'>（{{item.count}}种）</text></view>
+                    </view>
+                    <view class='drugs_card-tag'>
+                      <text class='drugs-tag-item'>{{item.cf?"处方药":"非处方药"}}</text>
+                    </view>
+                    <view class='drugs_card-desc' wx:if='{{item.desc!=""}}'>{{item.desc}}</view>
+                  </view>
+                </view>
+                <view class='alldrugs' data-name='{{item.name}}' catchtap='todrug'>
+                  <image src='../../assets/img/alldrugs-icon.svg'></image>
+                  <text class=''>查看全部药品</text>
+                </view>
+              </view>
+            </scroll-view>
+          </view>
+          </block>
+          <!-- 药品推荐 结束-->
+          <!-- 百科卡片 -->
+          <block wx:elif='{{item.msgType=="baike"}}'>
+            <view class='card-bing-box'>
+              <view class='card-bing card-bg-z' catchtap='illPage' data-index='0' data-name='{{item.title}}'>
+                <image src='../../assets/img/z-zs-icon.svg' class='bg-zs-z'></image>
+                <view class='card-bing-con'>
+                    <view class='card-bing-head'>
+                      <text class='card-bing-title'>{{item.title}}</text>
+                    </view>
+                    <view class='card-bing-instructions'>{{item.val}}</view>
+                    <view class='card-bing-btn'>
+                      <view class='btn-bing-item' wx:for='{{cardBtn}}' data-index='{{index}}' data-name='{{item.title}}' wx:for-item='Bitem' catchtap='illPage'>
+                        <image src='{{Bitem.icon}}'></image>
+                        <text>{{Bitem.val}}</text>
+                      </view>
+                    </view>
+                </view>
+              </view>
+            </view>
+          </block>
+          <!-- 食疗卡片  治疗卡片  原因卡片 // 长文本卡片-->
+          <block wx:elif='{{item.msgType=="foods"||item.msgType=="pro"||item.msgType=="bec"||item.msgType=="pre"||item.msgType=="inspect"}}'>
+            <view class='cure-card {{cure_card[item.msgType].class}}' data-title='{{item.title}}' data-name='{{cure_card[item.msgType].info}}' data-val='{{item.val}}' catchtap='cuerInfo'>
+              <view class='cure-cardCon'>
+                <view class='cure-title'>{{item.title}} </view>
+                <view class='cure-method'>
+                  <text>{{cure_card[item.msgType].info}}：</text>{{item.val}}
+                </view>
+                <view class='cure-info'>
+                  <text>查看详情</text>
+                  <view class='arrow'>
+                    <image src='../../assets/img/jt.svg'></image>
+                  </view>
+                </view>
+              </view>
+           </view>
+          </block>
+          <!-- 百科卡片 -->
+          <!-- 是否进入问诊 -->
+          <block wx:elif='{{item.msgType=="can_wenzhen"}}'>
+            <view class='ask-list-btn'>
+              <view class='ask-list-con'>
+                <text>是否进入问诊？</text>
+                <text class='ask-btn' data-val='{{item.val}}' data-tap='{{item.tap}}' data-index='{{index}}' catchtap='ask_btn'>进入问诊</text>
+              </view>
+            </view>
+          </block>
+          <!-- 是否进入问诊 -->
+          <!-- 多个病症问答 -->
+          <block wx:elif='{{item.msgType=="cardMsgTag"}}'>
+            <view class='msgTag'>
+              <view class='msgTag-title'>{{item.val.title}}</view>
+              <view class='msgTag-con'>
+                <block wx:for='{{item.val.msgTag}}' wx:for-index='i' wx:for-item='key'>
+                  <text class='msgcon-tag' data-val='{{key}}' data-index='{{index}}' data-tap='{{item.tap}}' catchtap='msgTag'>{{key}}</text>
+                </block>
+              </view>
+            </view>
+          </block>
+          <!-- 多个病症问答 -->
+        </block>
+
+        <!-- <block wx:if=''> -->
+          <view class='input-load chat-left' hidden='{{inputLoad}}'>
+            <text></text>
+            <text></text>
+            <text></text>
+          </view>
+        <!-- </block> -->
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class='sendBox' id='sendBox'>
+    <view class='decoration'>
+      <image src='../../assets/img/decoration-icon{{record!=0?".gif":".png"}}' class='decoration-icon'></image>
+      <image src='../../assets/img/clear-icon.svg' class='clear-icon' wx:if='{{showClear}}' catchtap='ClearChat'></image>
+    </view>
+    <block wx:if='{{cardInfo==""}}'>
+    <!-- 输入框 -->
+      <view class='send_Input' style='padding-bottom:{{PhoneX}}rpx;'>
+      <!-- 装饰 -->
+        <view class='input_type' catchtap='input_type'>
+          <image src='{{Itype?"../../assets/img/keyboard.svg":"../../assets/img/record-icon.svg"}}' ></image>
+        </view>
+        <!-- 录音按钮 -->
+        <view class='record-Box' wx:if='{{Itype}}' hover-class='record-Box-hover' catchlongtap='record_start' catchtouchmove='record_move' catchtouchend='record_stop'>
+          <block wx:if='{{recordText==2}}'>
+            松开 结束
+          </block>
+          <block wx:else>
+            按住 说话
+          </block>
+        </view>
+        <!-- 输入框 -->
+        <view class='input_box' wx:else>
+          <input type='text' placeholder='哪里不舒服？请告诉我吧...' placeholder-class='send_placeholder' cursor-spacing='19rpx' bindinput='sendInput' bindconfirm='send_btn' confirm-type='send' value='{{sendVal}}'></input>
+        </view>
+        <!-- 二级菜单 -->
+        <view class='chat_menuBtn'>
+          <image src='../../assets/img/menu-icon.svg'></image>
+        </view>
+      </view>
+      <!-- 输入框 结束 -->
+    </block>
+    <block wx:else>
+    <!-- <view>{{caedInfo.length}}</view> -->
+      <!-- 性别 标签-->
+      <view class='cardSelect' style='padding-bottom:{{PhoneX}}rpx; padding-top:{{cardInfo.msgtype=="ask_age"?"0":"80"}}rpx;'>
+        <block wx:if='{{cardInfo.msgtype=="ask_sex"}}'>
+          <view class='tag-box'>
+            <view class='tag-list'>
+              <block wx:for='{{cardInfo.msg}}'>
+                <text class='card-item' bindtap='tap_send' data-sex='{{item.sex}}' data-val='{{item.val}}' data-vtype='{{cardInfo.msgtype}}'>{{item.sex}}.{{item.val}}</text>
+              </block>
+            </view>
+          </view>
+        </block>
+        <block wx:elif='{{cardInfo.msgtype=="ask_age"}}'>
+          <view class='picker-age'>
+          <text class='picker-age-btn' catchtap='age_submit'>确定</text>
+            <picker-view  indicator-class='age-indicator' mask-class='age-mask' class='age-box' bindpickstart='age_picker_s' bindpickend='age_picker_e' bindchange='age_picker_c' value='{{ageChecked}}'>
+              <picker-view-column>
+                <view class='picker-age-item' wx:for='{{age}}'>{{item}}</view>
+              </picker-view-column>
+            </picker-view>
+            
+          </view>
+        </block>
+        <!-- 性别 结束 -->
+        <!-- 单选 标签 -->
+        <block wx:elif='{{cardInfo.msgtype=="many"}}'>
+          <block wx:if='{{cardInfo.ans_type=="tmp_is"||cardInfo.ans_type=="is"||cardInfo.ans_type=="wenda"}}'>
+            <view class='tag-box'>
+              <view class='tag-list'>
+                <block wx:for='{{cardInfo.msgJson}}'>
+                  <text class='card-item {{item.checked?"active":""}}' bindtap='tap_send' data-val='{{item.val}}' data-vtype='{{cardInfo.ans_type}}'>{{index+1}}.{{item.val}}</text>
+                </block>
+                <block wx:if='{{cardInfo.ans_type=="is"}}'>
+                  <text class='card-item {{item.checked?"active":""}}' bindtap='tap_send' data-val='{{cardInfo.msgArr}}' data-vtype='not'>以上都没有</text>
+                </block>
+              </view>
+            </view>
+          </block>
+          <!-- 单选 结束 -->
+          <!-- 多选 标签 -->
+          <block wx:elif='{{cardInfo.ans_type=="tmp_are"||cardInfo.ans_type=="are"}}'>
+            <view class='tag-box'>
+              <view class='tag-list'>
+                <block wx:for='{{cardInfo.msgJson}}'>
+                  <text class='card-item {{item.checked?"active":""}}' bindtap='tagSend_arr' data-val='{{item.val}}' data-index='{{index}}' data-vtype='{{cardInfo.ans_type}}'>{{index+1}}.{{item.val}}</text>
+                </block>
+              </view>
+              <view class='tag-btn'>
+                <view class='tag-send' bindtap='tap_send' data-val='{{checkTag}}' data-vtype='{{cardInfo.ans_type}}'>确认</view>
+                <view class='tag-back' bindtap='tap_send' data-val='{{cardInfo.msgArr}}' data-vtype='tmp_not'>以上都没有</view>
+              </view>
+            </view>
+          </block>
+        </block>
+        <!-- 多选 结束 -->
+      </view>
+    </block>
+
+
+
+  </view>
+
+
+</view>
+
+
+
+<!-- 录音效果 -->
+<cover-view class='cover-record' hidden='{{record==0}}'>
+  <cover-view hidden='{{record==2}}'>
+    <cover-image class='cover-record-icon' src='../../assets/img/send-record.png' mode='widthFix'></cover-image>
+    <cover-view class='cover-record-text'>手指上滑，取消发送</cover-view>
+  </cover-view>
+  <cover-view hidden='{{record==1}}'>
+    <cover-image class='cover-cancel-record' src='../../assets/img/cancel-record.png' mode='widthFix'></cover-image>
+    <cover-view class='cover-record-text bg'>松开手指，取消发送</cover-view>
+  </cover-view>
+</cover-view>
+<!-- 点赞反馈 -->
+<view class='send_feedback' wx:if='{{feedbackWinShow}}'>
+  <view class='send_feedback-con' style='{{feedbackTop}}'>
+    <view class='send_feedback-title'>
+    <text>可以告诉我原因吗：</text>
+    <image src='../../assets/img/chat-feedback-icon.svg' catchtap='clear_feedback'></image>
+    </view>
+    <view class='send_feedback-tag'>
+      <block wx:for='{{feedbackSelectTag}}'>
+        <text data-tagchecked='{{item.checked}}' data-id='{{item.id}}' data-index='{{index}}' catchtap='feedback_tag' class='{{item.checked?"active":""}}'>{{item.cause}}</text>
+      </block>
+    </view>
+    <view class='send_feedback-input'>
+      <textarea placeholder='其他原因在此输入...' placeholder-class='feedback-placeholder' cursor-spacing='40rpx' bindinput='feedback_val'></textarea>
+      <!-- <input class='send_cursor' bindinput='feedbackVal' cursor-spacing='200rpx' adjust-position='{{true}}' focus='{{feedbackInput}}'></input> -->
+    </view>
+    <button class='submit-feedback' catchtap='submitFeedback'>提交</button>
+  </view>
+</view>
+
+
+

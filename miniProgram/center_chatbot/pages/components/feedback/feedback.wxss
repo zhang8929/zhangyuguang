@@ -1,0 +1,98 @@
+/* pages/components/feedback/feedback.wxss */
+.logo{
+  padding: 8rpx 0 8rpx 40rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 40rpx;
+}
+.logo image{
+  width: 162rpx;
+  height: 40rpx;
+  /* margin-right: 40rpx; */
+}
+/* .logo text{
+  padding-left: 40rpx;
+  font-size: 24rpx;
+  color: #1E57D6;
+  font-weight: bold;
+  position: relative;
+}
+.logo text::before{
+  content: "";
+  width: 2rpx;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1E57D6;
+} */
+.feedback-type{
+  display: flex;
+  flex-direction: row;
+  padding: 0 40rpx;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+.feedback-type .feedback-type-title{
+  font-size: 32rpx;
+  line-height: 44rpx;
+  
+}
+.feedback-type input{
+  color: #606D7D;
+  font-size: 32rpx;
+  height: 44rpx;
+}
+.feedback-type-input{
+  font-size: 24rpx;
+  color: #606D7D;
+}
+.feedback-textarea{
+  border-top: 2rpx solid #f2f2f2;
+  border-bottom: 2rpx solid #f2f2f2;
+  padding: 20rpx 30rpx;
+  margin-bottom: 40rpx;
+  box-sizing: border-box;
+}
+.feedback-textarea textarea{
+  font-size:24rpx; 
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.feedback-textarea .sned-textarea{
+  font-size: 24rpx;
+  color: #606D7D;
+}
+.tallNum{
+  display: flex;
+  flex-direction: row;
+  padding:0 40rpx;
+  align-items: center;
+  margin-bottom: 60rpx;
+}
+.tallNum-title{
+  font-size: 32rpx;
+  color: #252525;
+  margin-right: 80rpx;
+  min-width: 160rpx;
+}
+.tallNum input{
+  flex: 1;
+  font-size: 32rpx;
+}
+.tallNum-input{
+  font-size: 24rpx;
+  color: #606D7D;
+}
+.submit-feedback{
+  text-align: center;
+}
+.submit-feedback text{
+  padding:20rpx 140rpx;
+  background-color: #128DE9;
+  color: white;
+  border-radius: 70rpx;
+}

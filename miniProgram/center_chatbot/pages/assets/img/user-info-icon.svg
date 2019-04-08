@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>个人信息</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人中心" transform="translate(-30.000000, -286.000000)" fill-rule="nonzero">
+            <g id="个人信息" transform="translate(30.000000, 286.000000)">
+                <path d="M3,0.5 C1.61928813,0.5 0.5,1.61928813 0.5,3 L0.5,10 C0.5,11.3807119 1.61928813,12.5 3,12.5 L5.52402746,12.5 L5.40540221,13.0973855 C4.99011883,15.1887133 5.13336926,16.2134053 5.55057854,16.3034278 C6.06766331,16.4150009 7.30795981,15.2391248 9.00589208,12.7431805 L9.15429895,12.5250238 L17.0057684,12.5069075 C18.3842245,12.5037269 19.5,11.3853738 19.5,10.0069142 L19.5,3 C19.5,1.61928813 18.3807119,0.5 17,0.5 L3,0.5 Z" id="矩形" stroke="#4687FF"></path>
+                <circle id="椭圆形" fill="#7AA9FF" cx="5.5" cy="6.5" r="1.5"></circle>
+                <circle id="椭圆形-copy-5" fill="#7AA9FF" cx="10.5" cy="6.5" r="1.5"></circle>
+                <circle id="椭圆形-copy-6" fill="#7AA9FF" cx="15.5" cy="6.5" r="1.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

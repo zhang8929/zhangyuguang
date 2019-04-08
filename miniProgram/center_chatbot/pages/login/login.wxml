@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<!-- 登录页面 -->
+<view class="login-box">
+  <view class="userinfo">
+    <view class='logo_box'>
+      <image src='../assets/img/logo.svg' class='logo'></image>
+      <!-- <text>森特健康</text> -->
+    </view>
+    <view class='login-bg'>
+      <image src='../assets/img/login-bg.svg'></image>
+    </view>
+    <button  open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='login_btn' disabled='{{tap}}'>一键登录</button>
+  </view>
+</view>

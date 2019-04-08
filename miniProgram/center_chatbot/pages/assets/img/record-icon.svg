@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>语音icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#7B68F9" offset="0%"></stop>
+            <stop stop-color="#3574FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-2">
+            <stop stop-color="#3573FB" offset="0%"></stop>
+            <stop stop-color="#7B68F9" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="97.3559429%" x2="50%" y2="2.94902991e-15%" id="linearGradient-3">
+            <stop stop-color="#3474FC" offset="0%"></stop>
+            <stop stop-color="#7B68F9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-XS-Copy-2" transform="translate(-12.000000, -715.000000)" fill-rule="nonzero">
+            <g id="语音icon" transform="translate(13.000000, 716.000000)">
+                <circle id="椭圆形" stroke="#E0E2E6" stroke-width="0.5" fill="#FFFFFF" cx="18" cy="18" r="18"></circle>
+                <g id="分组-5" transform="translate(11.520000, 7.200000)">
+                    <g id="分组-4" transform="translate(0.000000, 10.080000)">
+                        <path d="M-1.13686838e-13,0 C0.534723944,4.32857921 2.65284295,6.49286881 6.35435702,6.49286881 C10.0558711,6.49286881 12.3334497,4.32857921 13.1870927,0" id="路径-2" stroke="url(#linearGradient-1)" stroke-width="1.5" stroke-linecap="round"></path>
+                        <path d="M6.48,6.48 C6.87764502,6.48 7.2,6.80235498 7.2,7.2 L7.2,11.52 C7.2,11.917645 6.87764502,12.24 6.48,12.24 C6.08235498,12.24 5.76,11.917645 5.76,11.52 L5.76,7.2 C5.76,6.80235498 6.08235498,6.48 6.48,6.48 Z" id="矩形-copy" fill="url(#linearGradient-2)"></path>
+                    </g>
+                    <rect id="矩形" fill="url(#linearGradient-3)" x="2.16" y="0" width="8.64" height="15.12" rx="4.32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>功能关闭icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#8567F9" offset="0%"></stop>
+            <stop stop-color="#1D76FC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-XS-Copy-2" transform="translate(-327.000000, -734.000000)" fill-rule="nonzero">
+            <g id="功能关闭icon" transform="translate(327.000000, 734.000000)">
+                <circle id="椭圆形" stroke="#E0E2E6" stroke-width="0.5" fill="#FFFFFF" cx="18" cy="18" r="17"></circle>
+                <path d="M21.0710678,18.2426407 L23.8994949,21.0710678 C24.6805435,21.8521164 24.6805435,23.1184464 23.8994949,23.8994949 C23.1184464,24.6805435 21.8521164,24.6805435 21.0710678,23.8994949 L18.2426407,21.0710678 L15.4142136,23.8994949 C14.633165,24.6805435 13.366835,24.6805435 12.5857864,23.8994949 C11.8047379,23.1184464 11.8047379,21.8521164 12.5857864,21.0710678 L15.4142136,18.2426407 L12.5857864,15.4142136 C11.8047379,14.633165 11.8047379,13.366835 12.5857864,12.5857864 C13.366835,11.8047379 14.633165,11.8047379 15.4142136,12.5857864 L18.2426407,15.4142136 L21.0710678,12.5857864 C21.8521164,11.8047379 23.1184464,11.8047379 23.8994949,12.5857864 C24.6805435,13.366835 24.6805435,14.633165 23.8994949,15.4142136 L21.0710678,18.2426407 Z" id="合并形状" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

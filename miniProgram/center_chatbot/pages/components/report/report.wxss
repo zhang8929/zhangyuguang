@@ -1,0 +1,205 @@
+/* pages/components/report/report.wxss */
+@import '../../loading/loading.wxss';
+page{
+  background-color: #f4faff;
+}
+.content{
+  padding: 20rpx 40rpx 0;
+}
+.user-Box{
+  margin-bottom: 32rpx;
+}
+.user-con{
+  display: flex;
+  flex-direction: row;
+  border-radius: 24rpx;
+  background-color: white;
+  padding: 40rpx 0 40rpx 40rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(125,199,255,0.50);
+}
+.user-info .user_name{
+  font-size: 36rpx;
+  color: #324057;
+  line-height: 50rpx;
+}
+.report_info{
+  font-size: 24rpx;
+  color: #99AAC0;
+}
+.head_img{
+  width: 96rpx;
+  height: 96rpx;
+  background-color: wheat;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.head_img image{
+  width: 100%;
+  height: 100%;
+}
+.user_name{
+  margin-bottom: 30rpx;
+}
+.user_sex{
+  margin-right: 60rpx;
+}
+.ueer_time{
+  margin-right:36rpx;
+}
+
+
+.advisory-box{
+  margin-bottom: 40rpx;
+  
+}
+.advisory-con{
+  padding: 40rpx 40rpx 40rpx 80rpx;
+  background-color: white;
+  border-radius: 24rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(125,199,255,0.50);
+}
+.advisory-info{
+  margin-bottom: 32rpx;
+}
+.advisory_info-title,.advisory-review-title{
+  font-size: 36rpx;
+  color: #324057;
+  line-height: 50rpx;
+  position: relative;
+  margin-bottom: 32rpx;
+}
+.advisory_info-con,.advisory-review-con{
+  color: #4b596c;
+  font-size: 28rpx;
+}
+.advisory_info-title::before{
+  border: 2rpx solid #ff5b8f;
+}
+.advisory-review-title::before{
+  border: 2rpx solid #5f7aff;
+}
+.advisory_info-title::before,.advisory-review-title::before{
+  position: absolute;
+  content: "";
+  width: 18rpx;
+  height: 18rpx;
+  border-radius: 50%;
+  top: 10rpx;
+  left: -38rpx;
+}
+
+
+.sick-title{
+  color: #506BFF;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  padding-left: 40rpx;
+  margin-bottom: 40rpx;
+}
+.maybe_sick-list{
+  background-color: white;
+  border-radius: 24rpx;
+  padding: 0 40rpx 32rpx;
+  margin-bottom: 30rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(125,199,255,0.50);
+}
+.maybe_sick-item{
+  padding-top:40rpx; 
+  /* margin-bottom: 40rpx; */
+}
+.maybe_sick-item:last-child{
+  margin-bottom: 0;
+}
+.details-btn{
+  padding-top: 12rpx;
+  font-size: 28rpx;
+  color: #506BFF;
+}
+.maybe_sick-title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  font-size: 32rpx;
+}
+.maybe_sick-title .maybe_sick-name{
+  color: #324057;
+  font-size: 36rpx;
+}
+.maybe_sick-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.maybe_sick-office{
+  text-align: right;
+  margin-right: 12rpx;
+}
+.maybe_sick-right image{
+  width: 24rpx;
+  height: 15rpx;
+  /* transform: rotate(90deg); */
+  transition: transform .2s;
+}
+/* .maybe_sick-item-list{
+  margin-bottom: 22rpx;
+} */
+.maybe_sick-itemCon{
+  padding-top: 26rpx;
+}
+.itemCon-title{
+  font-size: 28rpx;
+  color: #4B596C; 
+  margin-bottom: 12rpx;
+}
+.itemCon-con{
+  font-size: 28rpx;
+  color: #F7BB2B;
+  
+}
+
+
+.statement{
+  color: #324057;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  margin-bottom: 30rpx;
+}
+.footerBar{
+  margin-bottom: 20rpx;
+}
+.footerBar-con{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #DEDEDE;
+  letter-spacing: 3rpx;
+  padding: 20rpx 0;
+  border-radius: 24rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(125,199,255,0.50);
+}
+.praise,.evaluation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerBar image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 12rpx;
+}
+.praise{
+  margin-right: 200rpx;
+}
+/* 加载动画 */
+.loadingBox{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}

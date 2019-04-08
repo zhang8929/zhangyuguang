@@ -1,0 +1,27 @@
+{
+  "pages":[
+
+    "pages/login/login",
+    "pages/index/index",
+    "pages/my/my",
+    "pages/components/chat/chat",
+    "pages/components/cureInfo/cureInfo",
+    "pages/components/myInfo/myInfo",
+    "pages/components/drug/drug",
+    "pages/components/alldrug/alldrug",
+    "pages/components/drugInfo/drugInfo",
+    "pages/components/illness/illness",
+    "pages/components/report/report",
+    "pages/components/about/about",
+    "pages/components/feedback/feedback",
+    "pages/components/interrogation/interrogation",
+    "pages/components/symptoms/symptoms",
+    "pages/loading/loading"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "寻医问典",
+    "navigationBarTextStyle":"black"
+  }
+}

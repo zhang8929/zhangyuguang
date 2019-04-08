@@ -1,0 +1,61 @@
+/* pages/my/my.wxss */
+page{
+  /* background-color: #f4faff; */
+}
+.head{
+  width: 100%;
+  padding:20rpx 0 36rpx;
+  /* background-color: #f9fafc; */
+}
+.head_img{
+  width: 176rpx;
+  height: 176rpx;
+  margin: 0 auto;
+  border: 2rpx solid #4687FF;
+  border-radius: 50%;
+  margin-bottom: 24rpx;
+}
+.head_img image{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+  margin: 8rpx auto 0;
+  display: block;
+}
+.user_name{
+  font-size: 32rpx;
+  color: #A4A4A4;
+  letter-spacing: 1.34rpx;
+  text-align: center;
+}
+
+
+
+.myList{
+  padding: 0 20rpx;
+}
+.myList-con{
+  box-shadow: 0 4rpx 8rpx 0 #CCD6FF;
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+.my_item{
+  padding: 48rpx 0 48rpx 60rpx;
+  border-bottom: 2rpx solid #EAECEF;
+  background-color: white;
+}
+.item_icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item_icon image{
+  width: 40rpx;
+  margin-right: 24rpx;
+}
+.item_icon text{
+  font-size: 32rpx;
+  color: #A4A4A4;
+  letter-spacing: 1.34rpx;
+  line-height: 44rpx;
+}

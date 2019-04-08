@@ -1,0 +1,57 @@
+<!--pages/components/symptoms/symptoms.wxml-->
+<!-- <text>pages/components/symptoms/symptoms.wxml</text> -->
+<!-- 病症详情 -->
+<view class='head'>
+  <view class='head-con'>
+    <text class='name'>{{pageData.name}}</text>
+    <text class='focuson'>+关注</text>
+  </view>
+</view>
+<view class='body'>
+  <view class='sym-con'>
+    <view class='sym-item'>
+      <text class='sym-item-title'>名称：</text>{{pageData.name}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>别名：</text>{{pageData.alias}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>定义：</text>{{pageData.definition}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>部位：</text>{{pageData.part}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>相似症状：</text>{{pageData.sim_symptom}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>挂号科室：</text>{{pageData.office}}
+    </view>
+     <view class='sym-item'>
+      <text class='sym-item-title'>检查：</text>{{pageData.item}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>可能疾病：</text>{{pageData.sim_illness}}
+    </view>
+    <view class='sym-item'>
+      <text class='sym-item-title'>药品：</text>{{pageData.drug}}
+    </view>
+  </view>
+  <view class='footerBar'>
+    <view class='footerBar-con'>
+      <view class='praise'>
+        <image src='../../assets/img/b-dz-icon.svg'></image>
+        <text>点赞</text>
+      </view>
+      <view class='evaluation'>
+        <image src='../../assets/img/b-pj-icon.svg'></image>
+        <text>评价</text>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 引入加载动画 -->
+<import src='../../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>

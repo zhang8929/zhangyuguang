@@ -1,0 +1,26 @@
+<!--pages/myInfo/myInfo.wxml-->
+<!-- <text>pages/myInfo/myInfo.wxml</text> -->
+<!-- 个人信息 -->
+<view class='userInfo'>
+  <view class='userInfo-con' style='padding-bottom:{{PhoneX}}px;'>
+    <view class='user-item'>
+      <view class='user-item-title'>姓名</view>
+      <view class='user-item-con'>漫画中的少女</view>
+    </view>
+    <view class='user-item'>
+      <view class='user-item-title'>性别</view>
+      <view class='user-item-con'>女</view>
+    </view>
+    <view class='user-item'>
+      <view class='user-item-title'>年龄</view>
+      <view class='user-item-con'>25</view>
+    </view>
+    <view class='user-item'>
+      <view class='user-item-title'>电话</view>
+      <view class='user-item-con'>12138</view>
+    </view>
+    <view class='user-btn'>
+      <text>确定</text>
+    </view>
+  </view>
+</view>

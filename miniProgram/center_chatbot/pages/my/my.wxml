@@ -1,0 +1,18 @@
+<!--pages/my/my.wxml-->
+<!-- 我的页面 -->
+<view class='head'>
+  <view class='head_img'>
+    <image src='{{userInfo.avatarUrl}}'></image>
+  </view>
+  <view class='user_name'>{{userInfo.nickName}}</view>
+</view>
+<view class='myList'>
+  <view class='myList-con'>
+    <view class='my_item' wx:for='{{mylist}}' data-url='{{item.url}}' catchtap='jumpTo'>
+      <view class='item_icon'>
+        <image src='{{item.icon}}' mode='widthFix'></image>
+        <text>{{item.val}}</text>
+      </view> 
+    </view>
+  </view>
+</view>

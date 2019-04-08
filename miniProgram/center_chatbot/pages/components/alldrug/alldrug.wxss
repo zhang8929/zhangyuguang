@@ -1,0 +1,111 @@
+/* pages/components/alldrug/alldrug.wxss */
+page{
+  background-color: #f9f9f9;
+}
+.nav{
+  padding: 0 20rpx 32rpx;
+}
+.nav-con{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  /* padding-left: 48rpx; */
+}
+.nav-item{
+  width: 190rpx;
+  text-align: center;
+  padding: 30rpx 0;
+  font-size: 40rpx;
+}
+.nav-item.active{
+  position: relative;
+  color: #597EF7;
+}
+.nav-item.active::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2rpx;
+  background-color: #597EF7;
+  bottom: 0;
+  left: 0;
+}
+.body{
+overflow-x: hidden;
+}
+.drug_scroll{
+  box-sizing: border-box;
+}
+.drug_list{
+  /* padding: 32rpx 0 0; */
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.drug_con{
+  width: 100%;
+  min-width: 100%;
+}
+.drug_item{
+  padding: 0 20rpx;
+}
+.drug_item-con{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24rpx 48rpx;
+  background: #FFFFFF;
+  box-shadow: 0 4rpx 8rpx 0 #E9F7FF;
+  border-radius: 16rpx;
+  margin-bottom: 32rpx;
+}
+.drug-info{
+  margin-right: 28rpx;
+}
+.drug-title{
+  color: #597EF7;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  margin-bottom: 48rpx;
+  font-weight: bolder;
+  width:442rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.drug-title text{
+  font-size: 24rpx;
+  line-height: 44rpx;
+  font-weight: normal;
+}
+.drug-desc{
+  font-size: 24rpx;
+  color: #4A4A4A;
+  width: 442rpx;
+  margin-bottom: 38rpx;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.drug-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end
+}
+.drug-tag{
+  font-size: 28rpx;
+  color: #FFFFFF;
+  background-color: #597EF7;
+  border-radius: 16rpx;
+  padding: 8rpx 16rpx;
+}
+.drug-box image{
+  width: 26rpx;
+  height: 26rpx;
+}

@@ -1,0 +1,3 @@
+*.pyc
+NLP/models/*
+NLP/.idea/*

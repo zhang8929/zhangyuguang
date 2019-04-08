@@ -1,0 +1,14 @@
+<!--pages/components/cureInfo/cureInfo.wxml-->
+<!-- <text>pages/components/cureInfo/cureInfo.wxml</text> -->
+<!-- <view class=''></view> -->
+  <view class='head'>
+    <view class='name'>
+      <text class='title'>{{data.title}}</text>
+    </view>
+  </view>
+  <view class='head_info-box' style='padding-bottom:{{PhoneX}}rpx'>
+      <view class='box_con-title'>
+        <text>{{data.name}}</text>
+      </view>
+      <view class='box_con-body'>{{data.val}}</view>
+  </view>

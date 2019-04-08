@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>个人中心</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="主页" transform="translate(-334.000000, -117.000000)" fill-rule="nonzero" stroke="#FFFFFF">
+            <g id="个人中心" transform="translate(335.000000, 118.000000)">
+                <circle id="椭圆形" cx="15" cy="15" r="15"></circle>
+                <path d="M4.49982739,25.71198 C5.89781354,21.2429768 10.0701879,18 15,18 C19.9298121,18 24.1021865,21.2429768 25.5001726,25.71198 C22.7945316,28.364453 19.088267,30 15,30 C10.911733,30 7.20546839,28.364453 4.49982739,25.71198 Z" id="合并形状"></path>
+                <circle id="椭圆形" cx="15" cy="12" r="6"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

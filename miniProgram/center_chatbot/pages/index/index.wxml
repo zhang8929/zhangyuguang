@@ -1,0 +1,181 @@
+<!-- 首页 -->
+<view class='index' hidden='{{pageShow!="index"}}'  style='padding-bottom:{{(PhoneX-0)+20}}rpx;'>
+  <view class='head'>
+    <view class='user-info'>
+      <image src='../assets/img/user-icon.svg' catchtap='jumpTo' data-url='../my/my'></image>
+    </view>
+    <view class='logo-info'>
+      <image src='../assets/img/logo-bai.svg'></image>
+      <text>传递健康与信赖</text>
+    </view>
+    <view class='search-box'>
+      <view class='search-input' bindtap='show_search'>
+      <image src='../assets/img/search-icon.svg'></image>
+      <text>搜疾病/症状/文章</text>
+      </view>
+      <view class='search-suggestions'>
+        <block wx:for='{{hot_search}}'>
+          <block wx:if='{{index<3}}'>
+            <text data-val='{{item.search}}' catchtap='hot_search_btn'>{{item.search}}</text>
+          </block>
+        </block>
+      </view>
+    </view>
+  </view>
+
+  <view class='robot_box'>
+    <image class='robot_headImg' src='../assets/img/robot-icon.svg' catchtap='jumpTo' data-url='../components/chat/chat'></image>
+    <navigator class='robot_btn' url='../components/chat/chat'>立即问诊</navigator>
+  </view>
+
+  <view class='navBtn-box'>
+    <view class='navBtn-con'>
+    <block wx:for='{{navBtn}}'>
+      <view class='navItem' data-val='{{item.val}}' catchtap='scroll_btn'>
+        <image src='{{item.icon}}'></image>
+        <text>{{item.val}}</text>
+      </view>
+    </block>
+    </view>
+    <view class='all-symptoms'>
+      <text catchtap='scroll_btn' data-val=''>全部疾病</text>
+    </view>
+  </view>
+</view>
+
+
+
+
+<!-- background-color:{{pageShow=="card"?"#f8fbfb":"#ffffff"}}; -->
+<!-- 搜索页面 -->
+<view class='search' hidden='{{pageShow=="index"||pageShow=="scroll"}}' style='padding-bottom:{{PhoneX}}rpx;background-color:#ffffff;'>
+  <view class='head_search'>
+    <view class='send_search'>
+      <image class='send_search-icon' src='../assets/img/search-icon.svg'></image>
+      <input placeholder='搜疾病/症状/文章' placeholder-class='send_placeholder' focus='{{input}}' bindconfirm='send_search_btn' bindinput='search_val' value='{{search}}'></input>
+      <view class='clear_val'></view>
+    </view>
+    <view class='back_index' bindtap='back_index'>取消</view>
+  </view>
+<view class='search-body' hidden='{{pageShow!="search"}}'>
+  <view class='hot_search'>
+    <view class='hot_title'>热门搜索</view>
+      <view class='hot_list'>
+        <block wx:for='{{hot_search}}'>
+          <view class='hot_ltem' data-val='{{item.search}}' catchtap='hot_search_btn'>
+            <text class='hot_ltem-index'>{{index+1}}</text>
+            <text class='hot_ltem-con'>{{item.search}}</text>
+          </view>
+        </block>
+
+      </view>
+  </view>
+
+  <view class='search_history' wx:if='{{searchList.length>0}}' data-list='{{searchList.length}}'>
+    <view class='history-head'>
+      <view class='history-title'>搜索历史</view>
+      <view class='history-clear' catchtap='history_all_clear'>
+        <image src='../assets/img/clear-history-icon.svg'></image>
+        <text>清除历史</text>
+      </view>
+    </view>
+    <view class='history-list'>
+      <view class='history-item' wx:for='{{searchList}}'>
+      <view class='history-name' data-val='{{item.val}}' catchtap='hot_search_btn'>
+        <image src='../assets/img/search_history-time.svg'></image>
+        <text>{{item.val}}</text>  
+      </view>
+      <view class='history-item-clear' data-index='{{index}}' catchtap='history_item_clear'>
+        <image src='../assets/img/search_history-clear.svg'></image>
+      </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 搜索结果卡片 -->
+<view class='card-list' hidden='{{pageShow!="card"}}' style='padding-bottom:{{PhoneX}}rpx;'>
+  <block wx:if='{{cardData.type==""}}'>
+    <view class='card-default'>
+      <image src='../assets/img/default-icon.svg' mode='widthFix'></image>
+      <view class='default-show-info'>
+        <text class='default-h2'>暂无相关资料</text>
+        <text class='default-p'>还没有资料呢~小森会努力补齐的~</text>
+      </view>
+    </view>
+  </block>
+  <block wx:if='{{cardData.type=="ill"||cardData.type=="sym"}}'>
+    <view class='card-item {{cardData.type=="ill"?"card-bg-z":"card-bg-l"}}' catchtap='card_btn' data-ctype='{{cardData.type}}' data-name='{{cardData.title}}'>
+        <block wx:if='{{cardData.type=="ill"}}'>
+          <image src='../assets/img/z-zs-icon.svg' class='bg-zs-z'></image>
+        </block>
+        <block wx:else>
+          <image src='../assets/img/l-zs-icon.svg' class='bg-zs-l-t'></image>
+          <image src='../assets/img/l-zs-icon.svg' class='bg-zs-l-b'></image>
+        </block>
+        <view class='card-item-con'>
+        
+          <view class='card-head'>
+            <text class='card-title'>{{cardData.title}}</text>
+            <text class='card-subtitle' wx:if='{{cardData.tags[0]!=""}}'>（{{cardData.tags[0]}}）</text>
+          </view>
+
+          <view class='card-instructions'>{{cardData.desc}}</view>
+
+          <view class='card-tags' wx:if='{{cardData.tags[0]!=""}}'>
+            <view class='tag-item' wx:for='{{cardData.tags}}' wx:if='{{index<3}}'>{{item}}</view>
+          </view>
+
+          <block wx:if='{{cardData.type=="ill"}}'>
+            <view class='card-btn'>
+              <view class='btn-item' wx:for='{{cardBtn}}' data-index='{{index}}' data-name='{{cardData.title}}' catchtap='illPage'>
+                <image src='{{item.icon}}'></image>
+                <text>{{item.val}}</text>
+              </view>
+            </view>
+          </block>
+
+        </view>
+    </view>
+
+  </block>
+</view>
+
+</view>
+
+
+<!-- 选择页面 -->
+<view class='scrollBox' hidden='{{pageShow!="scroll"}}' style='background-color:#ffffff;'>
+    <view id='list-top'>
+      <view class='scroll_search'>
+        <image src='../assets/img/back.svg' class='back' bindtap='back_index'></image>
+        <view class='scroll_search-box' bindtap='show_search'>
+          <image class='scroll_search-icon' src='../assets/img/search-icon.svg'></image>
+          <text>搜索</text>
+        </view>
+      </view>
+    </view>
+  <scroll-view scroll-into-view='list-{{scrollShowView}}' scroll-y='true' style='height:{{winH}}px;padding-bottom:{{PhoneX}}rpx;box-sizing: border-box;'>
+    <block wx:for='{{scrollData}}'>
+      <view id='list-{{item.initials}}' class='scroll_listBox'>
+        <view class='list-title'>{{item.initials}}</view>
+        <view class='scroll_list'>
+          <view class='scroll_item' wx:for='{{item.name}}' catchtap='card_btn' data-ctype='ill' data-name='{{item}}'>{{item}}</view>
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+    <view class='left_nav' bindtouchmove='left_nav'>
+      <text data-to='top' catchtap='scroll_to'>#</text>
+      <block wx:for='{{scrollData}}'>
+        <text class='left_nav-item' data-to='{{item.initials}}' catchtap='scroll_to' bindtouchmove='left_nav_item'>{{item.initials}}</text>
+      </block>
+  </view>
+</view>
+<!-- 引入加载动画 -->
+<import src='../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>
+
+

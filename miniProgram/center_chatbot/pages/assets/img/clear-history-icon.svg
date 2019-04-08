@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>清除历史</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="搜索页" transform="translate(-261.000000, -380.000000)" fill-rule="nonzero" stroke="#979797">
+            <g id="清除历史" transform="translate(261.000000, 380.000000)">
+                <rect id="矩形" fill="#D8D8D8" x="0.5" y="3.5" width="19" height="1" rx="0.5"></rect>
+                <path d="M7.84317115,0.75 L6.24679551,3.75961072 L14.498006,3.75961072 L12.9362403,0.75 L7.84317115,0.75 Z" id="矩形" stroke-width="1.5"></path>
+                <rect id="矩形" fill="#D8D8D8" x="7.5" y="8.5" width="1" height="7" rx="0.5"></rect>
+                <rect id="矩形-copy-8" fill="#D8D8D8" x="11.5" y="8.5" width="1" height="7" rx="0.5"></rect>
+                <path d="M3,7 L4.06339544,18.1831912 C4.25964464,19.313683 4.78461627,19.8789289 5.63831032,19.8789289 C6.49200438,19.8789289 9.2759509,19.8789289 13.9901499,19.8789289 C15.33005,19.6883041 16,19.1230582 16,18.1831912 C16,17.2433243 16.3333333,13.5155939 17,7" id="路径-11" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

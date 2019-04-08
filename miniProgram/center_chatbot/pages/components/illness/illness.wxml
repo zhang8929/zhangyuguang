@@ -1,0 +1,222 @@
+<!--pages/components/illness/illness.wxml-->
+<!-- 疾病详情 -->
+<!-- <text>pages/components/illness/illness.wxml</text> -->
+<view class='head' id='head'>
+  <view class='name'>
+    <text class='title'>{{illName}}</text>    
+    <!-- <text class='focuson'>+关注</text>     -->
+  </view>
+  <view class='head_info'>
+    <view class='head_info-btn'>
+    <block wx:for='{{infoBtn}}'>
+      <view class='info_btn-item {{index==btnIndex?"active":""}}' data-index='{{index}}' bindtap='tabBar'>
+        <image src='{{item.icon}}'></image>
+        <text>{{item.val}}</text>
+      </view>
+    </block>
+    </view>
+  </view>
+</view>
+<view class='head_info-box' style='height:{{domH}}px;'>
+  <view class='head_box-con' style='{{scrollX}}' bindtouchstart='scrollStart' bindtouchend='scrollEnd'>
+  <scroll-view class='box_con-flex' data-index='0' scroll-y='true' style='height:{{domH}}px;padding-bottom:{{PhoneX}}rpx;box-sizing: border-box;'>
+    <view class='box_con-item' id='item1'>
+      <view class='box_con-title'>
+        <text>疾病详情</text>
+      </view>
+      <view class='instructions'>
+        <view class='instructions-con'>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>疾病概述</text>
+            {{pageData.illness_desc.name}}
+            {{pageData.illness_desc.alias}}
+            {{pageData.illness_desc.eng_name}}
+            {{pageData.illness_desc.desc}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>就诊科室</text>{{pageData.illness_desc.ks}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>病因</text>{{pageData.illness_desc.pathogenesis}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>部位</text>{{pageData.illness_desc.part}}
+          </view>
+
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>药品</text>{{pageData.illness_desc.drug}}
+          </view>
+
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>并发疾病</text>{{pageData.illness_desc.bfjb}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>项目检查</text>{{pageData.illness_desc.jcxm}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>传播途径</text>{{pageData.illness_desc.cbtj}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>传染性</text>{{pageData.illness_desc.infect?"是":"否"}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>多发人群</text>{{pageData.illness_desc.people}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>患病比例</text>{{pageData.illness_desc.proportion}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>治愈率</text>{{pageData.illness_desc.cure_rate}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>治愈率值</text>{{pageData.illness_desc.cure_rate_}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>治疗周期</text>{{pageData.illness_desc.cycle}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>是否属于医保</text>{{pageData.illness_desc.is_health_care?"是":"否"}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>治疗费用</text>{{pageData.illness_desc.money}}
+          </view>
+
+          <view class='instructions-item'>
+            <text class='instructions-item-title'>温馨提示</text>{{pageData.illness_desc.warm_prompt}}
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+    <view class='footerBar'>
+      <view class='praise'>
+        <image src='../../assets/img/z-dz-icon.svg'></image>
+        <text>点赞</text>
+      </view>
+      <view class='evaluation'>
+        <image src='../../assets/img/z-pj-icon.svg'></image>
+        <text>评价</text>
+      </view>
+    </view>
+
+  </scroll-view>
+
+
+  <scroll-view class='box_con-flex' scroll-y='true' data-index='1' style='height:{{domH}}px;padding-bottom:{{PhoneX}}rpx;box-sizing: border-box;'>
+    <view class='box_con-item' id='item2'>
+      <view class='box_con-title'>
+        <text>症状</text>
+      </view>
+      <!-- <view class='box_con-info'>
+        潜伏期肺结核和活动性肺结核的症状有很大不同。一般情况下，当人们感染结核分支杆菌后，由于健康健康者的免疫功能较强，在人体免疫机能的防御下，处于潜伏期的结核分枝杆菌表现相当温和。而一旦人体免疫功能低下，潜伏期肺结核成为活动性肺结核，患者就会出现一系列的呼吸系统及全身症状。
+      </view> -->
+      <view class='instructions'>
+        <!-- <view class='instructions-title'>肺结核会出现哪些症状？</view> -->
+        <view class='instructions-con'>
+
+          <view class='instructions-item' wx:for='{{pageData.illness_symptom.list}}' wx:if='{{item.definition!=""}}'>
+            <text class='instructions-item-title'>{{item.name}}：</text>{{item.definition}}
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='footerBar'>
+      <view class='praise'>
+        <image src='../../assets/img/z-dz-icon.svg'></image>
+        <text>点赞</text>
+      </view>
+      <view class='evaluation'>
+        <image src='../../assets/img/z-pj-icon.svg'></image>
+        <text>评价</text>
+      </view>
+    </view>
+  </scroll-view>
+
+
+
+  <scroll-view class='box_con-flex' scroll-y='true' data-index='2' style='height:{{domH}}px;padding-bottom:{{PhoneX}}rpx;box-sizing: border-box;'>
+    <view class='box_con-item' id='item3'>
+      <view class='box_con-title'>
+        <text>治疗</text>
+      </view>
+      <view class='instructions'>
+        <view class='instructions-con'>
+
+          <view class='instructions-item' >
+            <text class='instructions-item-title'>治疗方法：</text>
+            <block wx:for='{{pageData.illness_cure.list}}'>
+            {{item.name}}
+            <block wx:if='{{index<pageData.illness_cure.list.length-1}}'>、</block>
+            <block wx:else>。</block>
+            </block>
+          </view>
+<view class='instructions-item' wx:if="{{pageData.illness_cure.zlffxs != ''}}">
+                       <text class='instructions-item-title' >治疗方法详述：</text>
+                       {{pageData.illness_cure.zlffxs}}
+                     </view>
+          <view class='instructions-item' wx:if="{{pageData.illness_cure.ysbj != ''}}">
+                        <text class='instructions-item-title'>饮食保健：</text>
+                        {{pageData.illness_cure.ysbj}}
+                     </view>
+
+                     <view class='instructions-item' wx:if="{{pageData.illness_cure.yfxs != ''}}">
+                       <text class='instructions-item-title'>预防详述：</text>
+                       {{pageData.illness_cure.yfxs}}
+                     </view>
+                     
+                     <view class='instructions-item' wx:if="{{pageData.illness_cure.hlxs != ''}}">
+                       <text class='instructions-item-title' >护理详述：</text>
+                       {{pageData.illness_cure.hlxs}}
+                    </view>
+        </view>
+      </view>
+    </view>
+    <view class='footerBar'>
+      <view class='praise'>
+        <image src='../../assets/img/z-dz-icon.svg'></image>
+        <text>点赞</text>
+      </view>
+      <view class='evaluation'>
+        <image src='../../assets/img/z-pj-icon.svg'></image>
+        <text>评价</text>
+      </view>
+    </view>
+
+  </scroll-view>
+
+  </view>
+</view>
+
+<!-- <view class='footerBar'>
+  <view class='praise'>
+    <image src='../../assets/img/j-dz-icon.svg'></image>
+    <text>点赞</text>
+  </view>
+  <view class='evaluation'>
+    <image src='../../assets/img/l-pj-icon.svg'></image>
+    <text>评价</text>
+  </view>
+</view> -->
+<!-- 引入加载动画 -->
+<import src='../../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>

@@ -1,0 +1,93 @@
+<!-- 自诊报告 -->
+<view class='content'>
+
+<view class='user-Box'>
+  <view class='user-con'>
+    <view class='head_img'>
+    <!-- 用户头像 -->
+    <image src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class='user-info'>
+      <view class='user_name'>{{userInfo.nickName}}</view>
+      <view class='report_info'>
+        <text class='user_sex'>{{pageInfo.sex}}</text>
+        <text class='ueer_time'>{{pageInfo.pass_day}}</text>
+        <text>报告生成时间：{{pageInfo.day}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class='advisory-box'>
+  <view class='advisory-con'>
+    <view class='advisory-info'>
+      <view class='advisory_info-title'>主诉</view>
+      <view class='advisory_info-con'>{{pageInfo.main}}</view>
+    </view>
+    <view class='advisory-review'>
+      <view class='advisory-review-title'>病情回顾</view>
+      <view class='advisory-review-con'>{{pageInfo.other}}</view>
+    </view>
+  </view>
+</view>
+
+<view class='maybe_sick-box'>
+  <view class='maybe_sick-con'>
+      <view class='sick-title'>可能患病的情况</view>
+      <view class='maybe_sick-list'>
+
+        <view class='maybe_sick-item' wx:for='{{pageInfo.list}}'>
+          <view class='maybe_sick-title' catchtap='switch_btn' data-index='{{index}}'>
+            <view class='maybe_sick-name'>{{item.name}}</view>
+            <view class='maybe_sick-right'>
+              <view class='maybe_sick-office'>{{item.ke[0]}}</view>
+              <image src='../../assets/img/zk-icon.svg' class='maybe_sick-switch' style='transform: rotate({{!item.switch?"180":"0"}}deg)'></image>
+            </view>
+          </view>
+          <view class='maybe_sick-item-list' hidden='{{!item.switch}}'>
+            <view class='maybe_sick-itemCon'>
+              <view class='itemCon-title'>诊断依据：</view>
+              <view class='itemCon-con'>{{item.in}}</view>
+            </view>
+            <view class='maybe_sick-itemCon'>
+              <view class='itemCon-title'>进一步确诊需要：</view>
+              <view class='itemCon-con'>{{item.not_in}}</view>
+            </view>
+          </view>
+          <view class='details-btn' data-val='{{item.name}}' catchtap='details_btn'>查看详情</view>
+        </view>
+        
+      </view>
+  </view>
+</view>
+
+
+<view class='statement'>
+  扁鹊医生根据您反馈的症状列出了可能患病的情况，但不代表临床医生专业诊断，如出现紧急情况，情及时就医。
+</view>
+
+
+<view class='footerBar'>
+  <view class='footerBar-con'>
+    <view class='praise'>
+      <image src='../../assets/img/j-dz-icon.svg'></image>
+      <text>点赞</text>
+    </view>
+    <view class='evaluation'>
+      <image src='../../assets/img/l-pj-icon.svg'></image>
+      <text>评价</text>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+</view>
+
+<!-- 引入加载动画 -->
+<import src='../../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>

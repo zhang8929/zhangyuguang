@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="16px" viewBox="0 0 10 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>语音符号</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="问诊语音表现形式" transform="translate(-335.000000, -354.000000)" fill-rule="nonzero">
+            <g id="语音气泡" transform="translate(264.000000, 342.000000)">
+                <g id="语音符号" transform="translate(72.000000, 13.000000)">
+                    <path d="M2.85629976,14.1400256 C-0.95209992,9.01529335 -0.95209992,4.30195148 2.85629976,1.77635684e-15" id="路径-15" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="bevel"></path>
+                    <path d="M6,11 C3.33333333,8.10058106 3.33333333,5.43391439 6,3" id="路径-15-copy" stroke="#FFFFFF" stroke-width="1.5" stroke-linejoin="bevel"></path>
+                    <circle id="椭圆形" fill="#FFFFFF" cx="8" cy="7" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

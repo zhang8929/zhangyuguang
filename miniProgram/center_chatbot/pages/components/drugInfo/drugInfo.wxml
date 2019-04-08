@@ -1,0 +1,118 @@
+<!--pages/components/drugInfo/drugInfo.wxml-->
+<!-- <text>pages/components/drugInfo/drugInfo.wxml</text> -->
+<view class='head'>
+  <image src='{{pageData["图片"]}}' mode='widthFix'></image>
+</view>
+<view class='body'>
+  <view class='title'>{{pageData["药品通用名称"]}}</view>
+  <view class='tags'>
+    <text class='active'>{{pageData["处方药"]?"处方药":"非处方药"}}</text>
+    <text>{{pageData["药品类别"]}}</text>
+  </view>
+  <view class='info-list'>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>药品名称</text>
+      </view>
+      <view class='item-con'>商品名称：{{pageData["名称"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>适用症/功能主治</text>
+      </view>
+      <view class='item-con'>{{pageData["适用症描述"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>用法用量</text>
+      </view>
+      <view class='item-con'>{{pageData["用法用量"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>用法禁忌</text>
+      </view>
+      <view class='item-con'>{{pageData["禁忌"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>药品成分</text>
+      </view>
+      <view class='item-con'>{{pageData["成分"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>不良反应</text>
+      </view>
+      <view class='item-con'>{{pageData["不良反应"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>注意事项</text>
+      </view>
+      <view class='item-con'>{{pageData["注意事项"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>药物相互作用</text>
+      </view>
+      <view class='item-con'>{{pageData["药物相互作用"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>特殊人群用药</text>
+      </view>
+      <view class='item-con'>{{pageData["特殊人群用药"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>批准文号</text>
+      </view>
+      <view class='item-con'>{{pageData["批准文号"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>有效期</text>
+      </view>
+      <view class='item-con'>{{pageData["有效期"]}}</view>
+    </view>
+
+    <view class='info-item'>
+      <view class='item-head'>
+        <text class='dot'></text>
+        <text class='item-title'>制药公司</text>
+      </view>
+      <view class='item-con'>{{pageData["制药公司"]}}</view>
+    </view>
+
+
+  </view>
+</view>
+
+<!-- 引入加载动画 -->
+<import src='../../loading/loading.wxml' />
+<view class='loadingBox' hidden='{{!load}}'>
+  <template is='loading' />
+</view>

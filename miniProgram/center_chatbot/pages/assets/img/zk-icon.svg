@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="个人病例详情" transform="translate(-340.000000, -512.000000)" fill="#506BFF" fill-rule="nonzero">
+            <g id="分组-2" transform="translate(340.000000, 512.000000)">
+                <rect id="矩形-copy-2" transform="translate(2.899519, 2.540064) rotate(-315.000000) translate(-2.899519, -2.540064) " x="2.14951905" y="0.0400635095" width="1.5" height="5" rx="0.75"></rect>
+                <path d="M5.39921703,0.0255228046 L5.39921703,0.0255228046 C5.8134306,0.0255228046 6.14921703,0.361309242 6.14921703,0.775522805 L6.14921703,4.2755228 C6.14921703,4.68973637 5.8134306,5.0255228 5.39921703,5.0255228 L5.39921703,5.0255228 C4.98500347,5.0255228 4.64921703,4.68973637 4.64921703,4.2755228 L4.64921703,0.775522805 C4.64921703,0.361309242 4.98500347,0.0255228046 5.39921703,0.0255228046 Z" id="矩形-copy-3" transform="translate(5.399217, 2.525523) rotate(-45.000000) translate(-5.399217, -2.525523) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
